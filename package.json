@@ -2,7 +2,6 @@
   "name": "pre-homeworks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Anastasia1994iv.github.io/homework-front-main",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -23,8 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "yarn build",
+  "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,5 +45,7 @@
   },
   "devDependencies": {
     "prettier": "3.0.0"
-  }
+  },
+  "homepage": "https://anastasia1994iv.github.io/homework-front-main/"
+  
 }
