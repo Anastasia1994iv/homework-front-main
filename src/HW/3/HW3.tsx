@@ -31,6 +31,7 @@ export const HW3 = () => {
     setCurrentText('')// А ЗАТЕМ УБРАТЬ ЗА СОБОЙ В currentText
   };
 
+  
   return (
     <div id={'hw03'}>
       {currentText ? (
