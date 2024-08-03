@@ -1,9 +1,5 @@
 import { useState } from 'react';
 
-// type PropsType = {
-//   id: string
-//   value:string
-// }
 
 export const HW3 = () => {
   // 1️⃣ Раскомментируйте JSX(HW3.tsx) и вы увидите,
@@ -31,7 +27,7 @@ export const HW3 = () => {
     setCurrentText('')// А ЗАТЕМ УБРАТЬ ЗА СОБОЙ В currentText
   };
 
-  
+
   return (
     <div id={'hw03'}>
       {currentText ? (
