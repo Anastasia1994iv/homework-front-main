@@ -24,7 +24,6 @@ export const HW4 = () => {
     setCurrentText('');
   };
 
-
   return (
     <div id={'hw04'}>
       {currentText ? (
